@@ -1,6 +1,9 @@
+/// @description Basic player movement inputs
+
 // Stop Player Movement
 hspeed = 0
 vspeed = 0
+
 // Get Player Input
 if (keyboard_check(vk_left) or keyboard_check(ord("A")))
 {
@@ -18,6 +21,7 @@ else if (keyboard_check(vk_down) or keyboard_check(ord("S")))
 {
 	vspeed = movementSpeed
 }
+
 // Check for Collision
 if (instance_place(x + hspeed, y, obj_obstacle))
 {
