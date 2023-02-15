@@ -14,7 +14,7 @@ if(keyboard_check_pressed(ord("P")))
 }
 
 // change approval/happieness
-if(keyboard_check_pressed(ord("A")))
+if(keyboard_check_pressed(ord("H")))
 {
 	global.approval = 5;
 }
