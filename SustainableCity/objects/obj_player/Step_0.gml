@@ -23,11 +23,11 @@ else if (keyboard_check(vk_down) or keyboard_check(ord("S")))
 }
 
 // Check for Collision
-if (instance_place(x + hspeed, y, obj_building))
+if (instance_place(x + hspeed, y, obj_boundary))
 {
 	hspeed = 0
 }
-if (instance_place(x, y + vspeed, obj_building))
+if (instance_place(x, y + vspeed, obj_boundary))
 {
 	vspeed = 0
 }
