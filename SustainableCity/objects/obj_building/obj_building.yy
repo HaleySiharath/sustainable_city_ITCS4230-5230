@@ -11,7 +11,10 @@
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_boundary",
+    "path": "objects/obj_boundary/obj_boundary.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
