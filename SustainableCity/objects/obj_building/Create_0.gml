@@ -45,5 +45,13 @@ upgrades = [upgradeInitial,upgrade1,upgrade2,upgrade3]
 // set building level to indicate sprite
 level = initialLevel;
 
+if (initialLevel > 0)
+{
+	for (x = 0; x < level; x++)
+	{
+		applyUpgrade(upgrades[x]);
+	}
+}
+
 // stop image from animation
 image_speed = 0;
