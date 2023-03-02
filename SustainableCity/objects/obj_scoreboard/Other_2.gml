@@ -1,6 +1,7 @@
 /// @description Initialize HUD elements
 
 global.paused = false;
+global.time = 0;
 
 // money holds all of the money avalible to the player
 global.money = initialMoney;
