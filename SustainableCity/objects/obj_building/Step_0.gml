@@ -6,6 +6,6 @@ image_index = level;
 
 // call the timer
 if(instance_exists(obj_controller)) {
-	alarm[0] = time;
+//	alarm[0] = time;
 }
 

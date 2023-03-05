@@ -1,6 +1,7 @@
-/// @description Initialize HUD elements
+/// @description Initialize HUD elements and other global elments
 
-global.paused = false;
+
+// set time
 global.time = 0;
 
 // money holds all of the money avalible to the player

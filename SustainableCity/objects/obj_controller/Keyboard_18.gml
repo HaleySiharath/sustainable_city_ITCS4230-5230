@@ -1,6 +1,7 @@
 /// @description Cheat codes
 
 
+
 // add money
 if(keyboard_check_pressed(ord("M")))
 {
@@ -8,7 +9,7 @@ if(keyboard_check_pressed(ord("M")))
 }
 
 // reduce pollution
-if(keyboard_check_pressed(ord("P")))
+if(keyboard_check_pressed(ord("O")))
 {
 	global.pollution = global.pollution - (global.pollution * 0.75);
 }
