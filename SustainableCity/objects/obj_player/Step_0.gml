@@ -60,11 +60,11 @@ else
 
 
 // Check for Collision
-if (instance_place(x + hspeed, y, obj_boundary))
+if (instance_place(x + hspeed, y, obj_boundary)|| instance_place(x + hspeed, y, obj_npc))
 {
 	hspeed = 0
 }
-if (instance_place(x, y + vspeed, obj_boundary))
+if (instance_place(x, y + vspeed, obj_boundary) || instance_place(x, y + vspeed, obj_npc))
 {
 	vspeed = 0
 	

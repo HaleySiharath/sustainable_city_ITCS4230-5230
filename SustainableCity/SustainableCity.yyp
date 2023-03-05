@@ -5,6 +5,7 @@
   "resources": [
     {"id":{"name":"spr_start_screen_background","path":"sprites/spr_start_screen_background/spr_start_screen_background.yy",},"order":12,},
     {"id":{"name":"spr_grass_dead","path":"sprites/spr_grass_dead/spr_grass_dead.yy",},"order":3,},
+    {"id":{"name":"Timeline1","path":"timelines/Timeline1/Timeline1.yy",},"order":0,},
     {"id":{"name":"spr_textbox","path":"sprites/spr_textbox/spr_textbox.yy",},"order":15,},
     {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},"order":6,},
     {"id":{"name":"spr_player_walk_left","path":"sprites/spr_player_walk_left/spr_player_walk_left.yy",},"order":6,},
