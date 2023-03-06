@@ -12,11 +12,10 @@ if(object_exists(obj_player)) {
 		path_speed = 0;
 		
 		// create the dialouge box	
-		
-		instance_create_layer(global.textboxX, global.textboxY, "PlayerCollision", obj_textbox);
+		show_dialogue("Hello, I love this town!", dialogue_time);
 		
 	// call alarm to make npc to walk again
-		alarm[0] = dialouge_time;
+		alarm[0] = dialogue_time
 		
 		
 	}
