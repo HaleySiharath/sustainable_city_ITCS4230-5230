@@ -1,6 +1,8 @@
 /// @description Initialize the available upgrades
 
 upgradeInitial = {
+	name : "",
+	description : "",
 	money : 0,
 	income : incomeInitial,
 	approval : 0,
@@ -11,6 +13,8 @@ upgradeInitial = {
 };
 
 upgrade1 = {
+	name : name1,
+	description : description1,
 	money : money1,
 	income : income1,
 	approval : approval1,
@@ -21,6 +25,8 @@ upgrade1 = {
 };
 
 upgrade2 = {
+	name : name2,
+	description : description2,
 	money : money2,
 	income : income2,
 	approval : approval2,
@@ -31,6 +37,8 @@ upgrade2 = {
 };
 
 upgrade3 = {
+	name : name3,
+	description : description3,
 	money : money3,
 	income : income3,
 	approval : approval3,
@@ -43,14 +51,12 @@ upgrade3 = {
 upgrades = [upgradeInitial,upgrade1,upgrade2,upgrade3]
 
 // set building level to indicate sprite
-level = initialLevel;
+level = -1;
 
-if (initialLevel > 0)
+if (startInitial)
 {
-	for (x = 0; x < level; x++)
-	{
-		applyUpgrade(upgrades[x]);
-	}
+	alarm[0] = 30
+	level++
 }
 
 // stop image from animation

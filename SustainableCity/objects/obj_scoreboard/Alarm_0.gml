@@ -5,6 +5,8 @@ global.time += 5
 global.money += global.income
 global.resources += global.production
 global.approval += global.perception
+global.approval -= global.pollution / 10
+global.approval = clamp(global.approval, -1000000, 1000000)
 alarm[0] = 30
 
 

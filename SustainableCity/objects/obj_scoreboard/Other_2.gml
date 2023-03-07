@@ -1,5 +1,6 @@
+/*
 /// @description Initialize HUD elements and other global elments
-
+global.paused = false
 
 // set time
 global.time = 0;
@@ -22,4 +23,7 @@ global.production = initialProduction;
 global.pollution = initialPollution;
 
 // cap the max and min levels of pollution
-clamp(global.pollution, 0, 100);
+clamp(global.pollution, 0, 2500);
+
+*/
+alarm[0] = 30
