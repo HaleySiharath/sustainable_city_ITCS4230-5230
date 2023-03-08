@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_secretary",
   "spriteId": {
-    "name": "spr_secretary_placeholder",
-    "path": "sprites/spr_secretary_placeholder/spr_secretary_placeholder.yy",
+    "name": "spr_secretary_still",
+    "path": "sprites/spr_secretary_still/spr_secretary_still.yy",
   },
   "solid": false,
   "visible": true,
