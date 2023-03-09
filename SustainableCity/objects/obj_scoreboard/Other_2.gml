@@ -26,4 +26,24 @@ global.pollution = initialPollution;
 clamp(global.pollution, 0, 2500);
 
 */
+
+
+// set the number of days to 0. Will be increased with time.
+global.day = 0;
+
+// attach the day night cycle timeline
+// source: https://www.youtube.com/watch?v=_WyZ9rxbS5M
+// set this object to the timeline
+timeline_index = ti_day_cycle;
+
+// make it go by the second
+timeline_speed = 1 / room_speed;
+
+// make sure the time line is running
+if(!timeline_running)
+{
+	timeline_running = true;
+}
+
+
 alarm[0] = 30

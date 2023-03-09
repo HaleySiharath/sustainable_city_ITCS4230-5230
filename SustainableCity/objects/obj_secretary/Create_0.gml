@@ -14,6 +14,8 @@ timeline_index = ti_secretary;
 // make it go by the second
 timeline_speed = 1 / room_speed;
 
+timeline_loop = true;
+
 // make sure the time line is running
 if(!timeline_running)
 {
