@@ -44,6 +44,6 @@ if(!timeline_running)
 {
 	timeline_running = true;
 }
-
+global.paused = false
 
 alarm[0] = 30
