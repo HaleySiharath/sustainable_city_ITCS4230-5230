@@ -6,5 +6,9 @@ draw_set_valign(fa_middle);
 draw_set_color(c_white);
 
 // draw text
-draw_text(860, 950, dialogue);
+dialogueX = display_get_gui_width() / 2;
+dialogueY = display_get_gui_height() - (display_get_gui_height() / 7);
+
+
+draw_text_ext(dialogueX, dialogueY, dialogue, 50, 1500);
 
