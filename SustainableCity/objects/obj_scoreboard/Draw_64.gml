@@ -20,7 +20,7 @@ draw_set_halign(fa_left);
 draw_text(12, 90, "Resources: " + string(global.resources));
 
 // draw approval
-draw_sprite(spr_approval, global.approval, 115, 200);
+draw_sprite(spr_approval, global.ratingApproval, 115, 200);
 
 // draw pollution levels
-draw_healthbar(32, 90, 64, 220, global.pollution, c_green, c_maroon, c_red, 2, true, true);
+draw_healthbar(32, 90, 64, 220, global.ratingApproval, c_green, c_maroon, c_red, 2, true, true);
