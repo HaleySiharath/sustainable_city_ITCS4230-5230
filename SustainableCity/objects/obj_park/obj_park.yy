@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_park",
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_boundary",
+    "path": "sprites/spr_boundary/spr_boundary.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
