@@ -27,36 +27,27 @@ function fillMenu(object)
 function changeUpgrade()
 {
 	building = obj_menu.currentBuilding;
-
-	if(self.optionId == 1)
+	currentUpgrade = self.optionUpgrade;
+	if (-currentUpgrade.money <= global.money and -currentUpgrade.resources <= global.resources)
 	{
-		if(building.money1 < global.money)
+		applyUpgrade(currentUpgrade)
+		switch (self.optionId)
 		{
-			applyUpgrade(building.upgrades[1]);
+			case 1:
 			building.option1 = true;
-			
-		}
-	}
-	
-	else if(self.optionId == 2)
-	{
-		if(building.money2 < global.money)
-		{
-			applyUpgrade(building.upgrades[2]);
+			break;
+			case 2:
 			building.option2 = true;
-		}
-	}
-	else if(self.optionId == 3)
-	{
-		
-		if(building.money3 < global.money)
-		{
-			applyUpgrade(building.upgrades[3]);
+			break;
+			case 3:
 			building.option3 = true;
-			
+			break;
 		}
 	}
-	
+	else
+	{
+		self.alarm[0] = 15
+	}
 }
 
 //-------------------------------------------------------------------------
@@ -89,14 +80,17 @@ function makeMenu(){
 	button1 = instance_create_layer(buttonCoorX, buttonCoorY1, "Instances", obj_button);
 	button1.depth = -1;
 	button1.optionId = 1;
+	button1.optionUpgrade = self.upgrades[1]
 	
 	button2 = instance_create_layer(buttonCoorX, buttonCoorY2, "Instances", obj_button);
 	button2.depth = -1;
 	button2.optionId = 2;
+	button2.optionUpgrade = self.upgrades[2]
 	
 	button3 = instance_create_layer(buttonCoorX, buttonCoorY3, "Instances", obj_button);
 	button3.depth = -1;
 	button3.optionId = 3;
+	button3.optionUpgrade = self.upgrades[3]
 		
 	if(self.option1 == true)
 	{
