@@ -44,6 +44,12 @@
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"incomeInitial","path":"objects/obj_building/obj_building.yy",},"objectId":{"name":"obj_building","path":"objects/obj_building/obj_building.yy",},"value":"5",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"perceptionInitial","path":"objects/obj_building/obj_building.yy",},"objectId":{"name":"obj_building","path":"objects/obj_building/obj_building.yy",},"value":"5",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"buildingName","path":"objects/obj_building/obj_building.yy",},"objectId":{"name":"obj_building","path":"objects/obj_building/obj_building.yy",},"value":"Train Station",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"name1","path":"objects/obj_building/obj_building.yy",},"objectId":{"name":"obj_building","path":"objects/obj_building/obj_building.yy",},"value":"Tourism",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"name2","path":"objects/obj_building/obj_building.yy",},"objectId":{"name":"obj_building","path":"objects/obj_building/obj_building.yy",},"value":"More Tickets",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"name3","path":"objects/obj_building/obj_building.yy",},"objectId":{"name":"obj_building","path":"objects/obj_building/obj_building.yy",},"value":"Beach Cleanup",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"description1","path":"objects/obj_building/obj_building.yy",},"objectId":{"name":"obj_building","path":"objects/obj_building/obj_building.yy",},"value":"Make your town more popular!",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"description2","path":"objects/obj_building/obj_building.yy",},"objectId":{"name":"obj_building","path":"objects/obj_building/obj_building.yy",},"value":"Transport more people at once.",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"description3","path":"objects/obj_building/obj_building.yy",},"objectId":{"name":"obj_building","path":"objects/obj_building/obj_building.yy",},"value":"Clean up the beach, make it a great place to hang out.",},
   ],
   "parent": {
     "name": "Buildings",

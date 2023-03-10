@@ -59,7 +59,7 @@
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"name2","path":"objects/obj_building/obj_building.yy",},"objectId":{"name":"obj_building","path":"objects/obj_building/obj_building.yy",},"value":"Increase Quality",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"name3","path":"objects/obj_building/obj_building.yy",},"objectId":{"name":"obj_building","path":"objects/obj_building/obj_building.yy",},"value":"Reduce Pollution",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"description1","path":"objects/obj_building/obj_building.yy",},"objectId":{"name":"obj_building","path":"objects/obj_building/obj_building.yy",},"value":"The more you make, the more you can sell.",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"description2","path":"objects/obj_building/obj_building.yy",},"objectId":{"name":"obj_building","path":"objects/obj_building/obj_building.yy",},"value":"Better quality products make more money.",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"description2","path":"objects/obj_building/obj_building.yy",},"objectId":{"name":"obj_building","path":"objects/obj_building/obj_building.yy",},"value":"Better quality products sell for more.",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"description3","path":"objects/obj_building/obj_building.yy",},"objectId":{"name":"obj_building","path":"objects/obj_building/obj_building.yy",},"value":"Reduce the pollution your factory is creating.",},
   ],
   "parent": {

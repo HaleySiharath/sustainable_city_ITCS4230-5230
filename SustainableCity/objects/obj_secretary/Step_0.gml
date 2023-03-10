@@ -2,7 +2,8 @@
 // You can write your code in this editor
 
 // If the secretary is done with dialogue then walk to mayor building
-if(walkToBuilding == true)
+
+if(walkToBuilding == true and instance_exists(obj_player))
 {		
 	// get the distance between secretary and player
 	distanceToPlayer = distance_to_object(obj_player);
