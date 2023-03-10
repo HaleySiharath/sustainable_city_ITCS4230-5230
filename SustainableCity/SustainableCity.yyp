@@ -14,6 +14,7 @@
     {"id":{"name":"spr_road_flip","path":"sprites/spr_road_flip/spr_road_flip.yy",},"order":44,},
     {"id":{"name":"sh_button","path":"shaders/sh_button/sh_button.yy",},"order":0,},
     {"id":{"name":"spr_textbox","path":"sprites/spr_textbox/spr_textbox.yy",},"order":15,},
+    {"id":{"name":"obj_menu_button_exit","path":"objects/obj_menu_button_exit/obj_menu_button_exit.yy",},"order":15,},
     {"id":{"name":"obj_factory","path":"objects/obj_factory/obj_factory.yy",},"order":1,},
     {"id":{"name":"spr_shop_keep_still","path":"sprites/spr_shop_keep_still/spr_shop_keep_still.yy",},"order":37,},
     {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},"order":4,},
