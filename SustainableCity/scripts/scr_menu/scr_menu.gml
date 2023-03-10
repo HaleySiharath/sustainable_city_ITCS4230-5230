@@ -62,6 +62,11 @@ function changeUpgrade()
 //-------------------------------------------------------------------------
 function makeMenu(){
 	
+	if(instance_exists(obj_menu))
+	{
+		deleteMenu();
+	}
+	
 	// get where I want the menu to be 
 	menuCoorX = staticItemX(global.menuX);
 	menuCoorY = staticItemY(global.menuY);

@@ -8,7 +8,7 @@ global.approval += global.perception
 global.approval -= global.pollution / 10
 global.approval = clamp(global.approval, -1000000, 1000000)
 global.ratingPollution = global.pollution / 25
-global.ratingApproval = int64((global.approval + 1000000) / 4000000)
+global.ratingApproval = int64((global.approval + 1000000) / 400000)
 
 alarm[0] = 30
 

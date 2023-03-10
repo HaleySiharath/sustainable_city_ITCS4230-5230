@@ -27,6 +27,7 @@ draw_text(12, 120, "Day: " + string(global.day));
 
 // draw approval
 draw_sprite(spr_approval, global.ratingApproval, 115, 200);
+draw_text(125, 200, "Approval: " + string(global.approval));
 
 // draw pollution levels
 draw_healthbar(32, 140, 64, 310, global.ratingApproval, c_green, c_maroon, c_red, 2, true, true);
