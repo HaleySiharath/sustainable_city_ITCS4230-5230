@@ -1,5 +1,7 @@
 /// @description Initialize the available upgrades
 
+initialUnlocked = false
+
 upgradeInitial = {
 	name : "",
 	description : "",
@@ -60,3 +62,4 @@ if (startInitial)
 
 // stop image from animation
 image_speed = 0;
+
