@@ -25,4 +25,5 @@ if(walkToBuilding == true and instance_exists(obj_player))
 if(room = room_townhall)
 {
 	inTownHall = true;
+	timeline_running = false;
 }

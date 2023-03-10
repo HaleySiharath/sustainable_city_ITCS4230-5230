@@ -3,6 +3,10 @@
 
 // evaluate the statistics to see if player wins or lose
 function end_state(){
+	
+	text = "Secretary: " + "Hello Mayor Green, it might be our last day together! Let's view the results from the election."
+	show_dialogue(text, 10);
+	
 	// 1 = win & 2 = lose
 	endstate = 1;
 	

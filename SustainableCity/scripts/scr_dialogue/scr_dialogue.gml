@@ -2,8 +2,14 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function show_dialogue(show_text, show_time){
 	
-	instance_create_layer(global.textboxX, global.textboxY, "PlayerCollision", obj_textbox);
-	
+	if(room == room_main)
+	{
+		instance_create_layer(global.textboxX, global.textboxY, "PlayerCollision", obj_textbox);
+	}
+	else
+	{
+		instance_create_layer(global.textboxX, global.textboxY, "Instances", obj_textbox);
+	}
 	obj_textbox.dialogue = show_text;	
 	
 	// -1 represents no alarm

@@ -34,4 +34,19 @@ global.textboxX = camera_get_view_width(view_camera[0]) / 2;
 global.textboxY = camera_get_view_height(view_camera[0]) - 50;
 audio_play_sound(snd_town_theme,10, false)
 
+// attach the day night cycle timeline
+// source: https://www.youtube.com/watch?v=_WyZ9rxbS5M
+// set this object to the timeline
+timeline_index = ti_game;
+
+// make it go by the second
+timeline_speed = 1 / room_speed;
+
+// make sure the time line is running
+if(!timeline_running)
+{
+	timeline_running = true;
+}
+
+
 alarm[0] = 30

@@ -1,15 +1,9 @@
-///@description end of day2
+/// @description Insert description here
+// You can write your code in this editor
 
 
-// go to town hall
-room_goto(room_townhall);
-
-// unlock store
-with(obj_store)
-{
-	alarm[0] = 1;
-}
-
+// Inherit the parent event
+event_inherited();
 
 // Have secetary say something
 text = "Secretary: " + "Good morning, Mayor Green. I have some good news for you today. The permits for stores have been approved, which means you now have access to store buildings.";

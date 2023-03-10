@@ -69,7 +69,6 @@
     {"id":{"name":"ti_road_flipped","path":"tilesets/ti_road_flipped/ti_road_flipped.yy",},"order":4,},
     {"id":{"name":"obj_townhall","path":"objects/obj_townhall/obj_townhall.yy",},"order":3,},
     {"id":{"name":"spr_shop_keep_walk_up","path":"sprites/spr_shop_keep_walk_up/spr_shop_keep_walk_up.yy",},"order":36,},
-    {"id":{"name":"ti_day_night","path":"timelines/ti_day_night/ti_day_night.yy",},"order":2,},
     {"id":{"name":"spr_factory_worker_walk_left","path":"sprites/spr_factory_worker_walk_left/spr_factory_worker_walk_left.yy",},"order":30,},
     {"id":{"name":"obj_menu_button_play","path":"objects/obj_menu_button_play/obj_menu_button_play.yy",},"order":5,},
     {"id":{"name":"scr_menu","path":"scripts/scr_menu/scr_menu.yy",},"order":1,},

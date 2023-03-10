@@ -30,4 +30,4 @@ draw_sprite(spr_approval, global.ratingApproval, 115, 200);
 draw_text(125, 200, "Approval: " + string(global.approval));
 
 // draw pollution levels
-draw_healthbar(32, 140, 64, 310, 100 - global.ratingPollution, c_dkgray, c_green, c_lime, 2, true, true);
+draw_healthbar(32, 140, 64, 310, 100 - global.ratingPollution, c_ltgrey, c_green, c_lime, 2, true, true);

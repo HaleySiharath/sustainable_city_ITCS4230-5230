@@ -1,4 +1,5 @@
 /// @description Initialize the available upgrades
+initalUnlocked = false;
 
 upgradeInitial = {
 	name : "",
