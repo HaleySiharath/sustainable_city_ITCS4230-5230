@@ -21,7 +21,7 @@ global.production = 0;
 global.pollution = 0;
 
 global.ratingApproval = 0;
-global.ratingPolution = 0;
+global.ratingPollution = 0;
 
 // set the number of days to 0. Will be increased with time.
 global.day = 0;
