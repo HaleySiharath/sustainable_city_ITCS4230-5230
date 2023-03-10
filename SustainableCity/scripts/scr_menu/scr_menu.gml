@@ -24,7 +24,7 @@ function fillMenu(object)
 	obj_menu.pollution1 = object.pollution1;
 }
 
-changeUpgrade()
+function changeUpgrade()
 {
 	instance_destroy(self);
 }
