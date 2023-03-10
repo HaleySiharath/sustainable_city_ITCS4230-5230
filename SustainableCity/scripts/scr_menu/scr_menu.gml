@@ -30,6 +30,7 @@ function changeUpgrade()
 	currentUpgrade = self.optionUpgrade;
 	if (-currentUpgrade.money <= global.money and -currentUpgrade.resources <= global.resources)
 	{
+		audio_play_sound(snd_cash_register, 1, false)
 		applyUpgrade(currentUpgrade)
 		switch (self.optionId)
 		{
