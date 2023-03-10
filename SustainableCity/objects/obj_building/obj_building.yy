@@ -10,7 +10,7 @@
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
-  "persistent": false,
+  "persistent": true,
   "parentObjectId": {
     "name": "obj_boundary",
     "path": "objects/obj_boundary/obj_boundary.yy",

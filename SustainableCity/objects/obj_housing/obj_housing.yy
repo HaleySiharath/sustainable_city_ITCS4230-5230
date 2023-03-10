@@ -10,7 +10,7 @@
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
-  "persistent": false,
+  "persistent": true,
   "parentObjectId": {
     "name": "obj_building",
     "path": "objects/obj_building/obj_building.yy",
