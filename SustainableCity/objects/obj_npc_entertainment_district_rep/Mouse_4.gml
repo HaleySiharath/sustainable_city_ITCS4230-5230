@@ -27,8 +27,8 @@ if(object_exists(obj_player)) {
 
 		else if(global.ratingApproval == 0 || global.ratingApproval == 1)
 		{
-			text1 = "Factory Manager:" + "Hello, Mayor. Our factory is struggling due to the pollution and supply shortages. We need more help."
-	
+			text1 = "Entertainment District Representative: Welcome, Mayor. The city is suffering due to the poor conditions overall. We need more amenities and greenery."
+
 			textLow = [text1];
 	
 			index = random_range(0, array_length(textLow) - 1);
@@ -41,8 +41,8 @@ if(object_exists(obj_player)) {
 		}
 		else if(global.ratingApproval == 2 || global.ratingApproval == 3)
 		{
-			text1 = "Factory Manager: " + "Hello, Mayor. We're managing to keep the factory running despite the challenges. Any chance of more support?"
-		
+			text1 = "Entertainment District Representative: Welcome, Mayor. The city is looking better and the citizens seem to be happier as of late."
+
 			textMedium = [text1];
 	
 			index = random_range(0, array_length(textMedium) - 1);
@@ -55,8 +55,8 @@ if(object_exists(obj_player)) {
 
 		else if(global.ratingApproval == 4)
 		{
-			text1 = "Factory Manager: " + "Hello, Mayor. The factory is running smoothly and we're meeting our targets. Keep up the good work.";
-		
+			text1 = "Entertainment District Representative: Welcome, Mayor. The city is booming and we're seeing record numbers of visitors. Everyone loves the way the city looks. Keep up the good work."
+
 			textHigh = [text1];
 	
 			index = random_range(0, array_length(textHigh) - 1);
