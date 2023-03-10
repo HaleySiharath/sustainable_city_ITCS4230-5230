@@ -1,5 +1,16 @@
-/// @description make npc resume path
+/// @description Insert description here
+// run dialog
 
 
-// npc walk along path
-path_speed = hsp;
+if (textIndex < array_length(text))
+{
+	show_dialogue(text[textIndex], dialogue_time);
+	textIndex++
+	alarm[0] = dialogue_time
+}
+else
+{
+	path_speed = hsp;
+}
+
+

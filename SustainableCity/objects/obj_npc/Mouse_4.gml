@@ -12,10 +12,11 @@ if(object_exists(obj_player)) {
 		path_speed = 0;
 		
 		// create the dialouge box	
-		show_dialogue(text, dialogue_time);
+		textIndex = 0
+		alarm[0] = 1
 		
-	// call alarm to make npc to walk again
-		alarm[0] = dialogue_time
+		// call alarm to make npc to walk again
+		
 		
 		
 	}
