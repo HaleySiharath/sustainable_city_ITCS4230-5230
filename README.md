@@ -1,7 +1,4 @@
-# sustainable_city_ITCS4230-5230
-
-Mayor Green 
-
+# Mayor Green
 Made By Caleb Tutor, Gabriel Fuller, Raymond Nguyen, and Haley Siharath
  
 -------------------------------------------
