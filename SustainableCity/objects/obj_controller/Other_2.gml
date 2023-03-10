@@ -18,6 +18,7 @@ global.production = 0;
 // pollution holds the current pollution levels of the town
 global.pollution = 0;
 
+global.intro = true
 
 //-----------------------------------------------------
 // Static position of items

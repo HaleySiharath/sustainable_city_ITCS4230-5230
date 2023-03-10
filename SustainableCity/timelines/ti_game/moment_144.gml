@@ -12,3 +12,4 @@ with(obj_housing)
 }
 
 
+global.intro = false
