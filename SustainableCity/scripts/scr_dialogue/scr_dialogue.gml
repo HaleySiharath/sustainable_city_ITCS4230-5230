@@ -8,6 +8,6 @@ function show_dialogue(show_text, show_time){
 	
 	// -1 represents no alarm
 	if(show_time != -1){
-		obj_textbox.alarm[0] = show_time / room_speed;
+		obj_textbox.alarm[0] = show_time * room_speed;
 	}
 }
