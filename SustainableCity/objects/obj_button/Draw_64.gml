@@ -1,24 +1,20 @@
-/// @description 
+/// @description write the labels on the buttons
 
-draw_set_valign(fa_middle);
 draw_set_halign(fa_center);
+draw_set_valign(fa_middle);
 
-// draw text
-if(global.button1) 
+
+if(optionId == 1)
 {
-	textX = display_get_gui_width() - (display_get_gui_width() / 6.7);
-	textY = display_get_gui_height() / 4.2;
-}
-else if (global.button2)
-{
-	textX = display_get_gui_width() - (display_get_gui_width() / 6.7);
-	textY = display_get_gui_height() / 4;
-}
-else
-{
-	textX = display_get_gui_width() - (display_get_gui_width() / 6.7);
-	textY = display_get_gui_height() / 3.8;
+	draw_text_transformed(1685, 200, "Option 1", 1, 1, 0);
 }
 
-draw_text(textX, textY, buttonName);
+else if (optionId == 2)
+{
+	draw_text_transformed(1685, 400, "Option 2", 1, 1, 0);
+}
 
+else if (optionId == 3)
+{
+	draw_text_transformed(1685, 600, "Option 3", 1, 1, 0);
+}

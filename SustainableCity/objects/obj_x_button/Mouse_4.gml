@@ -1,6 +1,3 @@
-/// @description if pressed then destroy itself and menu
+/// @description delete the menu
 
-instance_destroy(obj_menu);
-instance_destroy(obj_button);
-
-instance_destroy();
+deleteMenu();

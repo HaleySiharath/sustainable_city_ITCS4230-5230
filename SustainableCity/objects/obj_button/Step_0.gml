@@ -1,6 +1,18 @@
-/// @description Move with player
+///@description move with the player
 
+x = staticItemX(global.buttonX);
 
-// move text box position with camera/view
-x = camera_get_view_x(view_camera[0]) + global.buttonX;
-y = camera_get_view_y(view_camera[0]) + global.buttonY;
+if(optionId == 1)
+{
+	y = staticItemY(global.buttonY1);
+}
+
+else if(optionId == 2)
+{
+	y = staticItemY(global.buttonY2);
+}
+
+else if(optionId == 3)
+{
+	y = staticItemY(global.buttonY3);
+}

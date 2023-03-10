@@ -2,4 +2,4 @@
 
 
 
-instance_destroy();
+changeUpgrade();
