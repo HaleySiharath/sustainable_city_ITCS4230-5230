@@ -1,6 +1,13 @@
-/// @description apply shader
+/// @description shader
 
-if(pressed == true)
+if(pressed == false)
+{
+
+	draw_self();
+
+}
+
+else
 {
 	shader_set(sh_button);
 

@@ -35,8 +35,6 @@ function changeUpgrade()
 			applyUpgrade(building.upgrades[1]);
 			building.option1 = true;
 			
-			// destroy button after creating
-			instance_destroy(self);
 		}
 	}
 	
@@ -46,9 +44,6 @@ function changeUpgrade()
 		{
 			applyUpgrade(building.upgrades[2]);
 			building.option2 = true;
-			
-			// destroy button after creating
-			instance_destroy(self);
 		}
 	}
 	else if(self.optionId == 3)
@@ -59,8 +54,6 @@ function changeUpgrade()
 			applyUpgrade(building.upgrades[3]);
 			building.option3 = true;
 			
-			// destroy button after creating
-			instance_destroy(self);
 		}
 	}
 	
@@ -87,25 +80,32 @@ function makeMenu(){
 	
 	//--------------------------------------------
 	// create the buttons and place on GUI if not already bought
-	if(self.option1 == false)
+	
+	button1 = instance_create_layer(buttonCoorX, buttonCoorY1, "Instances", obj_button);
+	button1.depth = -1;
+	button1.optionId = 1;
+	
+	button2 = instance_create_layer(buttonCoorX, buttonCoorY2, "Instances", obj_button);
+	button2.depth = -1;
+	button2.optionId = 2;
+	
+	button3 = instance_create_layer(buttonCoorX, buttonCoorY3, "Instances", obj_button);
+	button3.depth = -1;
+	button3.optionId = 3;
+		
+	if(self.option1 == true)
 	{
-		button1 = instance_create_layer(buttonCoorX, buttonCoorY1, "Instances", obj_button);
-		button1.depth = -1;
-		button1.optionId = 1;
+		button1.pressed = true;
 	}
 	
-	if(self.option2 == false)
+	if(self.option2 == true)
 	{
-		button2 = instance_create_layer(buttonCoorX, buttonCoorY2, "Instances", obj_button);
-		button2.depth = -1;
-		button2.optionId = 2;
+		button2.pressed = true;
 	}
 	
-	if(self.option3 == false)
+	if(self.option3 == true)
 	{
-		button3 = instance_create_layer(buttonCoorX, buttonCoorY3, "Instances", obj_button);
-		button3.depth = -1;
-		button3.optionId = 3;
+		button3.pressed = true;
 	}
 	
 	

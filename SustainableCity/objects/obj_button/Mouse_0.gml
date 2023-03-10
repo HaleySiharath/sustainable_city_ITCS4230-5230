@@ -1,5 +1,8 @@
 /// @description destroy if clicked
 
-pressed = true;
+if(pressed != true)
+{
+	pressed = true;
 
-changeUpgrade();
+	changeUpgrade();
+}
