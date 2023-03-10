@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_factory_worker",
+  "name": "obj_npc_entertainment_district_rep",
   "spriteId": {
     "name": "spr_factor_worker",
     "path": "sprites/spr_factor_worker/spr_factor_worker.yy",
