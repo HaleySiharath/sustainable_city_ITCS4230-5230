@@ -56,7 +56,6 @@ level = -1;
 if (startInitial)
 {
 	alarm[0] = 30
-	level++
 }
 
 // stop image from animation
