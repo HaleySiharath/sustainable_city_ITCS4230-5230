@@ -6,15 +6,18 @@ draw_set_valign(fa_middle);
 
 if(optionId == 1)
 {
-	draw_text_transformed(1685, 200, "Option 1", 1, 1, 0);
+	buttonName = obj_menu.currentBuilding.name1;
+	draw_text_transformed(1685, 200, string(buttonName), 1, 1, 0);
 }
 
 else if (optionId == 2)
 {
-	draw_text_transformed(1685, 400, "Option 2", 1, 1, 0);
+	buttonName = obj_menu.currentBuilding.name2;
+	draw_text_transformed(1685, 400, string(buttonName), 1, 1, 0);
 }
 
 else if (optionId == 3)
 {
-	draw_text_transformed(1685, 600, "Option 3", 1, 1, 0);
+	buttonName = obj_menu.currentBuilding.name3;
+	draw_text_transformed(1685, 600, string(buttonName), 1, 1, 0);
 }

@@ -26,7 +26,44 @@ function fillMenu(object)
 
 function changeUpgrade()
 {
-	instance_destroy(self);
+	building = obj_menu.currentBuilding;
+
+	if(self.optionId == 1)
+	{
+		if(building.money1 < global.money)
+		{
+			applyUpgrade(building.upgrades[1]);
+			building.option1 = true;
+			
+			// destroy button after creating
+			instance_destroy(self);
+		}
+	}
+	
+	else if(self.optionId == 2)
+	{
+		if(building.money2 < global.money)
+		{
+			applyUpgrade(building.upgrades[2]);
+			building.option2 = true;
+			
+			// destroy button after creating
+			instance_destroy(self);
+		}
+	}
+	else if(self.optionId == 3)
+	{
+		
+		if(building.money3 < global.money)
+		{
+			applyUpgrade(building.upgrades[3]);
+			building.option3 = true;
+			
+			// destroy button after creating
+			instance_destroy(self);
+		}
+	}
+	
 }
 
 //-------------------------------------------------------------------------
@@ -91,6 +128,7 @@ function makeMenu(){
 	
 	// save the current building called into menu instance and set as global building
 	menu.currentBuilding = self;
+	menu.currentStatement = self.buildingName;
 }
 
 // keep X and Y coordinates static with player

@@ -23,4 +23,10 @@ if (keyboard_check(vk_alt) && keyboard_check_pressed(ord("P")))
 	}
 }
 
+if(room = room_townhall && keyboard_check_pressed(vk_escape))
+{
+	room_goto(room_main);
+	instance_create_layer(1300, 360, "Instances", obj_player);
+}
+
 

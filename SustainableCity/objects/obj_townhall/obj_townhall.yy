@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_townhall",
   "spriteId": {
-    "name": "spr_boundary",
-    "path": "sprites/spr_boundary/spr_boundary.yy",
+    "name": "spr_townhall",
+    "path": "sprites/spr_townhall/spr_townhall.yy",
   },
   "solid": false,
   "visible": true,

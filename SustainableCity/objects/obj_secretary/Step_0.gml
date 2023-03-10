@@ -20,3 +20,8 @@ if(walkToBuilding == true)
 		show_debug_message("walking");
 	}
 }
+
+if(room = room_townhall)
+{
+	inTownHall = true;
+}
