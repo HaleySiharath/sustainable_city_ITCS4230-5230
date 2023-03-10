@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_factory",
   "spriteId": {
-    "name": "spr_boundary",
-    "path": "sprites/spr_boundary/spr_boundary.yy",
+    "name": "spr_obstacle_playeholder",
+    "path": "sprites/spr_obstacle_playeholder/spr_obstacle_playeholder.yy",
   },
   "solid": false,
   "visible": true,
@@ -55,6 +55,12 @@
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"pollutionInitial","path":"objects/obj_building/obj_building.yy",},"objectId":{"name":"obj_building","path":"objects/obj_building/obj_building.yy",},"value":"2000",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"startInitial","path":"objects/obj_building/obj_building.yy",},"objectId":{"name":"obj_building","path":"objects/obj_building/obj_building.yy",},"value":"True",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"buildingName","path":"objects/obj_building/obj_building.yy",},"objectId":{"name":"obj_building","path":"objects/obj_building/obj_building.yy",},"value":"Factory",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"name1","path":"objects/obj_building/obj_building.yy",},"objectId":{"name":"obj_building","path":"objects/obj_building/obj_building.yy",},"value":"Increase Production",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"name2","path":"objects/obj_building/obj_building.yy",},"objectId":{"name":"obj_building","path":"objects/obj_building/obj_building.yy",},"value":"Increase Quality",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"name3","path":"objects/obj_building/obj_building.yy",},"objectId":{"name":"obj_building","path":"objects/obj_building/obj_building.yy",},"value":"Reduce Pollution",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"description1","path":"objects/obj_building/obj_building.yy",},"objectId":{"name":"obj_building","path":"objects/obj_building/obj_building.yy",},"value":"The more you make, the more you can sell.",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"description2","path":"objects/obj_building/obj_building.yy",},"objectId":{"name":"obj_building","path":"objects/obj_building/obj_building.yy",},"value":"Better quality products make more money.",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"description3","path":"objects/obj_building/obj_building.yy",},"objectId":{"name":"obj_building","path":"objects/obj_building/obj_building.yy",},"value":"Reduce the pollution your factory is creating.",},
   ],
   "parent": {
     "name": "Buildings",
