@@ -26,6 +26,9 @@ global.ratingPollution = 0;
 // set the number of days to 0. Will be increased with time.
 global.day = 0;
 
+global.clockHour = 0
+global.clockDay = 0
+
 // text box X and Y coordinates
 global.textboxX = camera_get_view_width(view_camera[0]) / 2;
 global.textboxY = camera_get_view_height(view_camera[0]) - 50;

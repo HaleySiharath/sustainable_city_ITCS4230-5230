@@ -23,7 +23,7 @@ draw_text(12, 90, "Resources: " + string(global.resources));
 
 draw_set_halign(fa_left);
 draw_set_valign(fa_center);
-draw_text(12, 120, "Day: " + string(global.day));
+draw_text(12, 120, "Day: " + string(global.clockDay) + "  " + string(global.clockHour) + ":00");
 
 // draw approval
 draw_sprite(spr_approval, global.ratingApproval, 115, 200);

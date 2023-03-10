@@ -25,7 +25,7 @@ if(object_exists(obj_player)) {
 		textIndex = 0;
 		
 	// call alarm to make npc to walk again
-		alarm[0] = dialogue_time
+		alarm[0] = 1
 		
 		
 		
