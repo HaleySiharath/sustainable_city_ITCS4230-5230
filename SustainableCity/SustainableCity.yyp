@@ -12,6 +12,7 @@
     {"id":{"name":"ti_water","path":"tilesets/ti_water/ti_water.yy",},"order":1,},
     {"id":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},"order":12,},
     {"id":{"name":"spr_road_flip","path":"sprites/spr_road_flip/spr_road_flip.yy",},"order":44,},
+    {"id":{"name":"sh_button","path":"shaders/sh_button/sh_button.yy",},"order":0,},
     {"id":{"name":"spr_textbox","path":"sprites/spr_textbox/spr_textbox.yy",},"order":15,},
     {"id":{"name":"obj_factory","path":"objects/obj_factory/obj_factory.yy",},"order":1,},
     {"id":{"name":"spr_shop_keep_still","path":"sprites/spr_shop_keep_still/spr_shop_keep_still.yy",},"order":37,},

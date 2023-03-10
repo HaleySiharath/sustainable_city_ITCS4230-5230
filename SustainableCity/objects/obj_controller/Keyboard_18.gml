@@ -26,3 +26,13 @@ if(keyboard_check_pressed(ord("R")))
 {
 	global.resources += 500;
 }
+
+if(keyboard_check_pressed(ord("k")))
+{
+	timeline_index = ti_game;
+	if timeline_running
+	{
+	    timeline_position = 288;
+	    timeline_running = true;
+	}
+}
