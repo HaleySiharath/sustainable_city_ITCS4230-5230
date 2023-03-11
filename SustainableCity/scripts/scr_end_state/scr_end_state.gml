@@ -8,7 +8,14 @@ function end_state(){
 	show_dialogue(text, 10);
 	
 	// 1 = win & 2 = lose
-	endstate = 1;
+	if (global.ratingApproval >= 3)
+	{
+		endstate = 1
+	}
+	else
+	{
+		endstate = 2
+	}
 	
 	
 	

@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_menu_button_instructions",
   "spriteId": {
-    "name": "spr_menu_button_play",
-    "path": "sprites/spr_menu_button_play/spr_menu_button_play.yy",
+    "name": "spr_button_instructions",
+    "path": "sprites/spr_button_instructions/spr_button_instructions.yy",
   },
   "solid": false,
   "visible": true,

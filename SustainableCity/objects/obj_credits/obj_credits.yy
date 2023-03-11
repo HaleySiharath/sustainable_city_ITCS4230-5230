@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_menu_button_exit",
+  "name": "obj_credits",
   "spriteId": {
-    "name": "spr_button_exit",
-    "path": "sprites/spr_button_exit/spr_button_exit.yy",
+    "name": "spr_credits",
+    "path": "sprites/spr_credits/spr_credits.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,9 +24,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":4,"eventType":6,"collisionObjectId":null,},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
