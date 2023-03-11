@@ -27,7 +27,7 @@ if(object_exists(obj_player)) {
 
 		else if(global.ratingApproval == 0 || global.ratingApproval == 1)
 		{
-			text1 = "Factory Manager:" + "Hello, Mayor. Our factory is struggling due to the pollution and supply shortages. We need more help."
+			text1 = "Commercial District Rep: " + "Hello, Mayor. The pollution is really hurting business in the district. Customers are hesitant to come here"
 	
 			textLow = [text1];
 	
@@ -41,7 +41,7 @@ if(object_exists(obj_player)) {
 		}
 		else if(global.ratingApproval == 2 || global.ratingApproval == 3)
 		{
-			text1 = "Factory Manager: " + "Hello, Mayor. We're managing to keep the factory running despite the challenges. Any chance of more support?"
+			text1 = "Commercial District Rep: " + "Things are going okay in the district, but there's definitely room for improvement"
 		
 			textMedium = [text1];
 	
@@ -55,7 +55,7 @@ if(object_exists(obj_player)) {
 
 		else if(global.ratingApproval == 4)
 		{
-			text1 = "Factory Manager: " + "Hello, Mayor. The factory is running smoothly and we're meeting our targets. Keep up the good work.";
+			text1 = "Commercial District Rep:  " + "The district is thriving thanks to your leadership, Mayor. Thanks for all of the support!";
 		
 			textHigh = [text1];
 	

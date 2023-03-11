@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_housing",
   "spriteId": {
-    "name": "spr_boundary",
-    "path": "sprites/spr_boundary/spr_boundary.yy",
+    "name": "spr_house",
+    "path": "sprites/spr_house/spr_house.yy",
   },
   "solid": false,
   "visible": true,

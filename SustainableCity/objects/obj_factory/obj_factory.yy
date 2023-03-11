@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_factory",
   "spriteId": {
-    "name": "spr_obstacle_playeholder",
-    "path": "sprites/spr_obstacle_playeholder/spr_obstacle_playeholder.yy",
+    "name": "spr_factory",
+    "path": "sprites/spr_factory/spr_factory.yy",
   },
   "solid": false,
   "visible": true,

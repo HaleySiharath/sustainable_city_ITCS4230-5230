@@ -1,4 +1,4 @@
-if(object_exists(obj_player)) {
+ if(object_exists(obj_player)) {
 	distanceToPlayer = distance_to_object(obj_player);
 	
 	// if player is in the correct distance then respond to player

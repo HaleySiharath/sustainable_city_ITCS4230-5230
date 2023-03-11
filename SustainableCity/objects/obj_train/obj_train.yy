@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_train",
   "spriteId": {
-    "name": "spr_boundary",
-    "path": "sprites/spr_boundary/spr_boundary.yy",
+    "name": "spr_train_station",
+    "path": "sprites/spr_train_station/spr_train_station.yy",
   },
   "solid": false,
   "visible": true,

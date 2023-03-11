@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_dining",
   "spriteId": {
-    "name": "spr_boundary",
-    "path": "sprites/spr_boundary/spr_boundary.yy",
+    "name": "spr_dining",
+    "path": "sprites/spr_dining/spr_dining.yy",
   },
   "solid": false,
   "visible": true,

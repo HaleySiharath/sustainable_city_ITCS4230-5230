@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_recycling",
   "spriteId": {
-    "name": "spr_boundary",
-    "path": "sprites/spr_boundary/spr_boundary.yy",
+    "name": "spr_recygling",
+    "path": "sprites/spr_recygling/spr_recygling.yy",
   },
   "solid": false,
   "visible": true,

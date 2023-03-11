@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_powerstation",
   "spriteId": {
-    "name": "spr_boundary",
-    "path": "sprites/spr_boundary/spr_boundary.yy",
+    "name": "spr_power_station",
+    "path": "sprites/spr_power_station/spr_power_station.yy",
   },
   "solid": false,
   "visible": true,

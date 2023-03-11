@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_park",
   "spriteId": {
-    "name": "spr_boundary",
-    "path": "sprites/spr_boundary/spr_boundary.yy",
+    "name": "spr_park",
+    "path": "sprites/spr_park/spr_park.yy",
   },
   "solid": false,
   "visible": true,

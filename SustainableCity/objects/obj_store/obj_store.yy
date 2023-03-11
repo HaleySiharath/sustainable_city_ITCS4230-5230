@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_store",
   "spriteId": {
-    "name": "spr_boundary",
-    "path": "sprites/spr_boundary/spr_boundary.yy",
+    "name": "spr_store",
+    "path": "sprites/spr_store/spr_store.yy",
   },
   "solid": false,
   "visible": true,
